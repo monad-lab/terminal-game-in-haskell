@@ -23,10 +23,11 @@ name:               terminal-toy
 version:            0.1.0.0
 
 -- A short (one-line) description of the package.
--- synopsis:
+synopsis: terminal toy game
 
 -- A longer description of the package.
--- description:
+description: 
+   terminal toy game for practicing haskell programming
 
 -- The license under which the package is released.
 license:            MIT
@@ -40,7 +41,7 @@ author:             junhee.cho
 -- An email address to which users can send suggestions, bug reports, and patches.
 maintainer:         amuro.june@gmail.com
 
-tested-with: GHC ==9.6.3 || ==9.4.8 || ==9.2.8
+tested-with: GHC ==9.4.8
 
 -- A copyright notice.
 -- copyright:
@@ -52,6 +53,10 @@ extra-doc-files:    CHANGELOG.md
 
 -- Extra source files to be distributed with the package, such as examples, or a tutorial module.
 -- extra-source-files:
+
+source-repository head
+  type: git
+  location: https://https://github.com/monad-lab/terminal-game-in-haskell.git
 
 common warnings
     ghc-options: -Wall
